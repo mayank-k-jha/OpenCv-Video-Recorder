@@ -8,7 +8,7 @@ Created on Sat Mar 18 03:55:06 2017
 import numpy
 import cv2
 
-cap=cv2.VideoCapture('E:/Anime/Gantz-Season-1/[LibreTanan.com] Gantz Season 1 Episode 01.avi')
+cap=cv2.VideoCapture('E:/Anime/video.avi')
 print("VideoPlayer")
 while(cap.isOpened()):
     ret,frame=cap.read()
